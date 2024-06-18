@@ -119,7 +119,7 @@ body{
 
 .banner-container {
     position: relative;
-    background-image: url('/images/banner-bg.png'); /* Replace with the actual path to your image */
+    background-image: url("./images/banner-bg.png"); /* Replace with the actual path to your image */
     background-size: cover; /* Ensures the image covers the entire div */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
@@ -227,7 +227,7 @@ body{
     border-radius: 32px;
     border: 1px solid var(--lighterblack-color);
 
-    background: url(/images/Cities/pasig.jpg);
+    background: url("./images/Cities/cityscape-frankfurt-covered-modern-buildings-sunset-germany.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -377,12 +377,12 @@ body{
     border-radius: 32px;
 
     border: 1px solid var(--lighterblack-color);
-    background-image: url("/images/Cities/cityscape-frankfurt-covered-modern-buildings-sunset-germany.jpg");
+    background-image: url("./images/Cities/cityscape-frankfurt-covered-modern-buildings-sunset-germany.jpg");
     transition: all 0.3s ease;
 }
 
 .city-cell.manila {
-    background-image: url("/images/Cities/manila.jpg");
+    background-image: url("./images/Cities/manila.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -522,7 +522,7 @@ a:hover .cell-container .city-cell {
     z-index: 0;
     width: 100%;
     height: 100%;
-    background: url(/images/Cities/cityscape-frankfurt-covered-modern-buildings-sunset-germany.jpg);
+    background: url("./images/Cities/cityscape-frankfurt-covered-modern-buildings-sunset-germany.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -757,7 +757,7 @@ a:hover .cell-container .city-cell {
 
 .cell-photo-last{
     position: relative; /* Ensure the parent is positioned */
-    background: url(/images/Cities/manila.jpg);
+    background: url("./images/Cities/cityscape-frankfurt-covered-modern-buildings-sunset-germany.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -819,7 +819,7 @@ a:hover .cell-container .city-cell {
     font-family: 'Gilroy-Medium', sans-serif;
     font-size: 14px;
     font-weight: 400;
-    margin-bottom: 8px;
+    margin-bottom: 2px;
 
 }
 
@@ -842,13 +842,23 @@ a:hover .cell-container .city-cell {
 
 .explore-button{
     width: 40%;
-    height: 32px;
+    height: 28px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    gap: 8px;
 
+    color: var(--black-color);
+    background-color: var(--white-color);
+    border-radius: 32px;
+
+    margin-top: 26px;
     
+
+    font-size: 14px;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-weight: 600;
 }
 
 

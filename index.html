@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>VenueVista</title>
+    <link rel="icon" href="./images/main-logo.png" type="image/png">
     <link rel="stylesheet" href="./index.css">
     <link href="https://fonts.cdnfonts.com/css/gilroy-bold?styles=20876,20877,20878,20879,20880" rel="stylesheet">
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
@@ -28,6 +29,7 @@
                 <a href="#">Venues</a>
                 <a href="#">Cities</a>
                 <a href="#">Events</a>
+                <a href="./Admin/Admin-Index/admin-index.html">Admin</a>
             </div>
 
 
@@ -41,10 +43,15 @@
 
             <div class="banner-details">
 
-                <div class="banner-title">
-                    <img src="./images/banner-title.png">
-                </div>
+                <div class="logo">
 
+                </div>
+                <div class="title">
+                    <img src="./images/logo-title.png">
+                </div>
+                <div class="subtitle">
+                    <img src="./images/main-sub.png">
+                </div>
 
             </div>
 
@@ -66,24 +73,228 @@
 
             <div class="event-type-photos">
 
-                <div class="photo-container">
+                <div class="photo-buttons">
+                    <button class="photo-button" id="previous">
+                        <i class="ph ph-caret-left"></i>
+                    </button>
 
-                    <div class="photo-buttons">
-                        <button class="photo-button" id="previous">
-                            <i class="ph ph-caret-left"></i>
-                        </button>
-
-                        <button class="photo-button" id="next">
-                            <i class="ph ph-caret-right"></i>
-                        </button>
-                        
-                    </div>
-
-                    <div class="photo-text">
-                        Birthday Venues
-                    </div>
+                    <button class="photo-button" id="next">
+                        <i class="ph ph-caret-right"></i>
+                    </button>
+                    
                 </div>
 
+                
+
+                <div class="photo-container" style="background-image: url('./images/Event-Type/');">
+                    <a href="#">
+                        <div class="photo-text">
+                            Birthday Venues
+                        </div>
+                    
+                        <div class="nav-circles">
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="photo-container" style="background-image: url('./images/Cities/pasig.jpg');">
+                    <a href="#">
+                        <div class="photo-text">
+                            Concert Venues
+                        </div>
+                    
+                        <div class="nav-circles">
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="photo-container" style="background-image: url('./images/Cities/cityscape-frankfurt-covered-modern-buildings-sunset-germany.jpg');">
+                    <a href="#">
+                        <div class="photo-text">
+                            Conference Venues
+                        </div>
+                    
+                        <div class="nav-circles">
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="photo-container" style="background-image: url('./images/Cities/manila.jpg');">
+                    <a href="#">
+                        <div class="photo-text">
+                            Corporate Event Venues
+                        </div>
+                    
+                        <div class="nav-circles">
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="photo-container" style="background-image: url('./images/Cities/pasig.jpg');">
+                    <a href="#">
+                        <div class="photo-text">
+                            Entertainment Venues
+                        </div>
+                    
+                        <div class="nav-circles">
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="photo-container" style="background-image: url('./images/Cities/cityscape-frankfurt-covered-modern-buildings-sunset-germany.jpg');">
+                    <a href="#">
+                        <div class="photo-text">
+                            Festival Venues
+                        </div>
+                    
+                        <div class="nav-circles">
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="photo-container" style="background-image: url('./images/Cities/manila.jpg');">
+                    <a href="#">
+                        <div class="photo-text">
+                            Graduation Venues
+                        </div>
+                    
+                        <div class="nav-circles">
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="photo-container" style="background-image: url('./images/Cities/pasig.jpg');">
+                    <a href="#">
+                        <div class="photo-text">
+                            Outdoor Venues
+                        </div>
+                    
+                        <div class="nav-circles">
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="photo-container" style="background-image: url('./images/Cities/cityscape-frankfurt-covered-modern-buildings-sunset-germany.jpg');">
+                    <a href="#">
+                        <div class="photo-text">
+                            Sports Event Venues
+                        </div>
+                    
+                        <div class="nav-circles">
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="photo-container" style="background-image: url('./images/Cities/manila.jpg');">
+                    <a href="#">
+                        <div class="photo-text">
+                            Wedding Venues
+                        </div>
+                    
+                        <div class="nav-circles">
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                        </div>
+                    </a>
+                </div>
 
             </div>
 
@@ -716,7 +927,7 @@
 
     </div>
 
-
+<script src="./index.js"></script>
 
 </body>
 </html>
